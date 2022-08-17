@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#24272E;
+}
+
+header{
+    background:rgb(171, 29, 145);
+    padding:20px;
+}
+
+header > h1{
+    color:#25272E;
+    text-align:center;
+    font-family: sans-serif;
+}
+
+.score-board{
+    position:relative;
+    border:3px solid white;
+    width:200px;
+    margin:20px auto;
+    text-align:center;
+    color:white;
+    font-size:46px;
+    border-radius: 8px;
+    padding:15px 20px;
+    font-family:sans-serif;
+}
+
+.badge{
+    background:#E2584D;
+    color:white;
+    font-size:14px;
+    padding:2px 18px;
+    font-family: sans-serif;
+}
+
+#user-label{
+    position:absolute;
+    left:-20%;
+    top:30%;
+
+}
+
+#computer-label{
+    position:absolute;
+    right:-20%;
+    top:30%;
+}
+
+.result{
+    text-align:center;
+    color:white;
+    font-size:26px;
+    font-family:sans-serif;
+}
+
+.choices{
+    text-align:center;
+}
+
+.choice{
+    display: inline-block;
+}
+.choice > img{
+    border:2px white solid;
+    border-radius:50%;
+    margin:30px;
+    padding:15px;
+    
+}
+
+.choice > img:hover{
+    background:rgb(171, 29, 145);
+    cursor:pointer;
+    transition:all 0.4s ease;
+}
+
+hr { 
+    border: 0;
+    border-top: 3px dashed rgb(171, 29, 145); 
+    text-align:center;
+  } 
+
+.move{
+    text-align: center;
+    /* visibility: hidden; */
+    /* display:none; */
+}
+
+.vs{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:white;
+    position:relative;
+    bottom:80px;
+}
+
+.choiceres{
+    display: inline-block;
+}
+.choiceres > img{
+    border:2px white solid;
+    border-radius:50%;
+    margin:30px;
+    padding:15px;
+    
+}
+
+#action-message{
+    margin-top:20px;
+    text-align: center;
+    color:white;
+    font-size:28px;
+    font-family: sans-serif;
+    font-weight: bold;
+}

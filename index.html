@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class = "score-board">
+        <div id = "user-label"class = "badge">user</div>
+        <div id = "computer-label"class = "badge">comp</div>
+        <span id ="user-score">0</span>:<span id ="comp-score">0</span>
+    </div>
+
+    <div class = "result">
+        <p>Result</p>
+    </div>
+
+    <div class = "choices">
+        <div class = "choice"id="r">
+            <img src="Rock.png" alt="rockImage">
+        </div>
+        <div class = "choice"id="p">
+            <img src="Paper.png" alt="paperImage">
+        </div>
+        <div class = "choice"id="s">
+            <img src="Scissors.png" alt="scissorImage">
+        </div>
+    </div>
+    <hr>
+
+    <div class = "move" id = "once">
+        <div class = "choiceres">
+            <img src="Paper.png" alt="paperImage"id="resUser">
+        </div>
+        <span class = "vs">vs</span>
+        <div class = "choiceres">
+            <img src="Scissors.png" alt="scissorImage"id="resComp">
+        </div>
+    </div>
+
+    <p id="action-message">Make your Move</p>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
